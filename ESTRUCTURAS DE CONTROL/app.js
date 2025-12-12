@@ -115,3 +115,53 @@ if((e4Entrada == true) && (e4Transporte == true)){
 }else{
     console.log('no que salados :(');
 }
+
+
+
+
+
+
+/* =============================== */
+
+let tieneAntecedentes = false;
+
+if (!tieneAntecedentes) {
+    console.log("Pudes adoptar una mascota");
+}else{
+    console.log("No puedes adoptar")
+}
+
+/* Una persona puede entrar al GYM si 
+NO ESTA LESIONADA.
+variable: lesionada = true*/
+
+let lesionado = true;
+
+if (!lesionado) {   // La logica no funciona en espanol seria : 1(no), esta "lesionado", no puede entrar
+    console.log("Puede entrar al GYM")
+}else {
+    console.log("No puede entrar al GYM")
+}
+
+/*Productos vencidos */
+
+let productoVencido = false;
+
+if(!productoVencido) {
+    console.log("No esta vencido, el producto tiene garantia")
+}else {
+    console.log("Esta vencido, el producto no tiene garantia")
+}
+
+/*Un usuario pueden entar SI NO ESTA BLOQUEDO Y
+NO TIENE DEUDA 
+VARIABLE: */
+
+let bloquedo = false;
+let tieneDeuda = true;
+
+if ((!bloquedo == true) && (!tieneDeuda == true)) {
+    console.log("Puede entrar a la biblioteca")
+}else{
+    console.log("NO puede entrar a la biblioteca")
+}
